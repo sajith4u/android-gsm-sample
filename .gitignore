@@ -1,14 +1,40 @@
-**/target/
-/target/
-*/target/*
-.classpath
-.project
-.settings
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
+# IDE settings #
+###################
 *.iml
 *.idea
+*.ipr
+*.iws
+
+# Compiled source #
+###################
+*.class
+*/target/*
+target
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Tool generated files #
+######################
+*.vpp~?
